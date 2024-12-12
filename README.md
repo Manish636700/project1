@@ -3,7 +3,7 @@
 Overview:
 This project is a web-based dashboard built using Flask, designed to manage and execute automated tests for different systems (Telegram bot, Android app, iOS app). The dashboard provides an interface where users can trigger different types of tests by submitting relevant details, such as API credentials, app paths, and device configurations. After the test is executed, if any test fails, the system will automatically send email notifications to the specified admin email. Additionally, for the Telegram bot test, users can receive real-time updates through Telegram notifications.
 
-#Key Features:
+# Key Features:
 Web Interface (Dashboard):
 
 A simple dashboard where users can select and trigger tests for Telegram bot, Android apps, and iOS apps.
@@ -28,7 +28,7 @@ Once submitted, the backend runs the corresponding test case and provides feedba
 
 
 
-#Technology Stack:
+# Technology Stack:
 Backend:
 
 Flask: A lightweight web framework used to build the backend of the dashboard. Flask is used for routing requests and rendering HTML templates.
