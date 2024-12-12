@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS App Test</title>
+</head>
+<body>
+    <h1>iOS App Test</h1>
+    <form action="/test/ios" method="POST">
+        <label for="app_path">App Path:</label><br>
+        <input type="text" id="app_path" name="app_path" required><br><br>
+
+        <label for="image_path">Image Path:</label><br>
+        <input type="text" id="image_path" name="image_path" required><br><br>
+
+        <label for="admin_email">Admin Email:</label><br>
+        <input type="email" id="admin_email" name="admin_email" required><br><br>
+
+        <input type="submit" value="Run Test">
+    </form>
+    <br>
+    <a href="/">Back to Dashboard</a>
+</body>
+</html>
